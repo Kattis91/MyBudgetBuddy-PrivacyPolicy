@@ -1,0 +1,76 @@
+/* Root styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #78B6A8 0%, #BE607A 100%);
+    background-attachment: fixed;
+    color: #333;
+  }
+  
+  /* Wrapper for centered layout */
+  .wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffffdd;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #222;
+    background: linear-gradient(to right, #4EB1B5, #78B6A8, #396F86);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #444;
+    background: linear-gradient(to right, #AE2972, #E95D73, #C95E7B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Text and lists */
+  p, li {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    .wrapper {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    h1 {
+      font-size: 26px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    p, li {
+      font-size: 16px;
+    }
+  }
+  
+  
